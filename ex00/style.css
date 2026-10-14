@@ -47,3 +47,15 @@ body.dark {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}

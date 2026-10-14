@@ -26,3 +26,14 @@ header {
   border-radius: 8px;
   text-align: center;
 }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project {
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
